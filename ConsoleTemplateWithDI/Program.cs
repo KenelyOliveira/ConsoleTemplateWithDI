@@ -1,12 +1,25 @@
 ﻿using System;
+using ConsoleTemplateWithDI.Dependencies;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace ConsoleTemplateWithDI
 {
-    class Program
+    static class Program
     {
+        private static IServiceProvider serviceProvider;
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            RegisterDependencies.Register();
+
+
+
+            
+        }
+
+        static void GetServices()
+        {
+            var services = serviceProvider.GetServices<>();
         }
     }
 }

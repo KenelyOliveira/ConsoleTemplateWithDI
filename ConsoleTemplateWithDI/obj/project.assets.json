@@ -762,9 +762,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://proget.fftech.info/nuget/Farfetch-NuGet-DEV/": {},
-        "https://proget.fftech.info/nuget/Farfetch-NuGet-LIVE/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
